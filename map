@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.0/mapbox-gl.js'></script>
+        <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.0/mapbox-gl.css' rel='stylesheet' />
+
+        <meta name="description" content="An interactive getting started guide for Brackets.">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        
+        <div id='map' style='width: 400px; height: 300px;'></div>
+        <script>
+            mapboxgl.accessToken = 'pk.eyJ1IjoiYm9ydGVnYXdlbGNoIiwiYSI6ImNqY3dzd3p2dDBpNTgyd3FzcTZmb3kwbWkifQ.lBAzTLmBI-ZaS1JQlx1F-Q';
+            var map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/bortegawelch/cjcwukjgu0js92slkj4iuw855'
+            });
+        </script>
