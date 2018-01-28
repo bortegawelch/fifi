@@ -12,7 +12,7 @@
     </head>
     <body>
         
-        <div id='map' style='width: 100px; height: 100px;'></div>
+        <div id='map' style='width: 1920px; height: 1080px;'></div>
         <script>
             mapboxgl.accessToken = 'pk.eyJ1IjoiYm9ydGVnYXdlbGNoIiwiYSI6ImNqY3dzd3p2dDBpNTgyd3FzcTZmb3kwbWkifQ.lBAzTLmBI-ZaS1JQlx1F-Q';
             var map = new mapboxgl.Map({
